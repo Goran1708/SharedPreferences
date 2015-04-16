@@ -1,3 +1,3 @@
 # SharedPreferences
 
-Practicing logins and shared preferences.
+SharedPreferences and login
