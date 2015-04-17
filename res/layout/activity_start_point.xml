@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Username (Enter 'test')"
+        android:text="Username"
         android:singleLine="true"
         android:layout_marginBottom="5dip"/>
      
@@ -23,7 +23,7 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Password (Enter 'test')"
+        android:text="Password"
         android:layout_marginBottom="5dip"/>
      
     <!-- Password input text -->
@@ -39,5 +39,11 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Login"/>
+    
+    <!-- Sign up button -->
+    <Button android:id="@+id/btnSignUp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SignUp"/>
  
 </LinearLayout>

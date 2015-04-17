@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Username textfield -->
+    <EditText
+        android:id="@+id/eTSignUpUsername"
+        android:inputType="textEmailAddress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:hint="Username" />
+    
+    <!-- Password textfield -->
+    <EditText
+        android:id="@+id/eTSignUpPassword"
+        android:inputType="textPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:hint="Password"/>
+    
+    <!-- Sign up button -->
+    <Button android:id="@+id/btnSignUpCheck"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Sign up"/>
+    
+    <!-- Sign up button -->
+    <Button android:id="@+id/btnCancel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Cancel"/>
+    
+</LinearLayout>
